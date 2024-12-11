@@ -1,0 +1,55 @@
+h1, h2 span{font-family: 'Playfair Display SC',serif;}
+
+#recetas-section{
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding: 50px;
+}
+
+#container #recetas-section #logo img{
+    height: 100px;
+    width: 100px;
+}
+
+#container .bg-recetas{
+    background-image: url(C:\Users\Lenovo\OneDrive\Escritorio\Trabajos\Walter\Lola\vino.png);
+    
+}
+
+#container .recetas-titulo h1{
+    font-size: 5em;
+    text-align: center;
+}
+#container .recetas-titulo h3{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#container #recetas-content section{
+    background-color: white;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+#container #recetas-content section .thumbnail{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+
+#container #recetas-content section .thumbnail .image img{
+    margin-bottom: -3px;
+    transition: all 0.5s;
+}
+
+#container #recetas-content section .thumbnail .image img:hover{
+    opacity: 0.7;
+}
+
+#container #recetas-content section .thumbnail .type{
+    color: #999;
+    font-family: 'Kaushan Script', cursive;
+    padding: 5px 0 10px 0;
+}
